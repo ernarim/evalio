@@ -1,6 +1,134 @@
-	<!DOCTYPE html>
-<html>
-  <body>
-    <h1> Hello Evalio Test3 </h1>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evalio - CS491 Project Information</title>
+
+    <link 
+        rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" 
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" 
+        crossorigin="anonymous"
+    >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter&display=swap">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #edf0f7;
+        }
+
+        footer {
+            background-color: #1a202c;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        .team-member {
+            max-width: 200px;
+        }
+
+        .team-member img {
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 50%; /* Ensures circular shape */
+            border: 3px solid #ffffff;
+        }
+
+        .team-member h5 {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .team-member p {
+            margin: 0;
+            font-size: 14px;
+            color: gray;
+        }
+
+        /* Ensuring row alignment for team members */
+        .team-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row; /* Aligns photos in a row */
+            flex-wrap: wrap; /* Allows wrapping if needed */
+            gap: 30px; /* Space between items */
+            background-color: #1a202c;
+            padding: 30px 0;  
+            color: #edf0f7;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container py-5">
+        <h1 class="text-center mb-4">Evalio Project Information</h1>
+        <p><strong>Project Name:</strong> Evalio</p>
+        <p><strong>Description:</strong> 
+            This exam database and management application provides modular exam creation and management for universities and institutions. 
+            It allows instructors to create exams and tests from a shared, searchable question database that supports multiple courses. 
+            The system tracks question usage, supports editing, versioning, and retirement, and offers export options such as LaTeX, Google Docs, and PDF.
+            It provides detailed analytics on question performance to create balanced assessments. 
+            The system can also manage assignments and quizzes and offers secure multi-university collaboration with authentication.
+        </p>
+        <p><strong>Supervisor:</strong> Can Alkan</p>
+        <p><strong>Innovation Expert:</strong> Can Alkan</p>
+    </section>
+
+
+    <section class="team-section mt-5">
+      <div  style="width: 100%; text-align: center;">
+        <h2>Team Members</h2>
+      </div>
+      <div class="text-center team-member">
+          <img src="assets/img/eren.jpg" alt="Eren">
+          <h5>Eren Hayrettin Arım</h5>
+          <p>22002306</p>
+      </div>
+      <div class="text-center team-member">
+          <img src="assets/img/dilara.jpeg" alt="Dilara">
+          <h5>Dilara Mandıracı</h5>
+          <p>22101643</p>
+      </div>
+      <div class="text-center team-member">
+          <img src="assets/img/ahmet.jpeg" alt="Ahmet">
+          <h5>Ahmet Reşat Demir</h5>
+          <p>22002299</p>
+      </div>
+      <div class="text-center team-member">
+          <img src="assets/img/burak.jpeg" alt="Burak">
+          <h5>Mehmet Burak Demirel</h5>
+          <p>22003396</p>
+      </div>
+      <div class="text-center team-member">
+          <img src="assets/img/yusuf.jpg" alt="Yusuf">
+          <h5>Yusuf Toraman</h5>
+          <p>22002885</p>
+      </div>
+    </section>
+
+    <footer class="text-center">
+        <div class="container">
+            <p>Copyright © 2024 Evalio</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script 
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+        crossorigin="anonymous">
+    </script>
+    <script 
+        src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" 
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" 
+        crossorigin="anonymous">
+    </script>
+</body>
+
 </html>
